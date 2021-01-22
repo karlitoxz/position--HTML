@@ -1,0 +1,12 @@
+.parrafo{
+	background-color: darkgray;
+	color: black;
+	position: fixed;
+	top: 5vh;
+	left: 5vh;
+	width: 70vh;
+}
+
+body{
+	height: 200vh;
+}

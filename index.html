@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Position</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- <link rel="stylesheet" href="./css/relative.css"> -->
+	<!-- <link rel="stylesheet" href="./css/absolute.css"> -->
+	<link rel="stylesheet" href="./css/fixed.css">
+</head>
+<body>
+<!-- 	postion: relative, Fixed, Absolute -->
+<!-- 	atrributes: top, left, bottom, right -->
+
+<div class="padre">
+	<img src="img/01.png" alt="">
+	<div class="parrafo">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, rem, temporibus. Voluptates, vero cumque deserunt qui, ex dicta ipsa mollitia? Repellat saepe quasi earum, tenetur illum nulla, provident et reprehenderit.
+	</div>
+	<img src="img/02.png" alt="">
+</div>
+	
+</body>
+</html>
+
+<!-- relative : Calcula su nueva posición, respecto al padre (padre), mantiene el flujo (img->parrafo->img), requiere tener los atributos, para poder visualizar cambios, si da scroll -->
+
+<!-- absolute :No mantiene el flujo (img->parrafo->img), calcula la posición de acuerdo al elemento padre que tenga cualquier atributo position(si ninguno lo tiene lo tomara del navegador), requiere tener los atributos, para poder visualizar cambios, si da scroll, ancho del elemento se mide dependiendo de su contenido -->
+
+<!-- fixed :No mantiene el flujo (img->parrafo->img), se posiciona de acuerdo a la ventana del navegador, NO da scroll -->

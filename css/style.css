@@ -1,0 +1,12 @@
+.padre{
+	margin-left: 10vh;
+	border: 2px red solid;
+	width: 60vw;
+	height: 60vh;
+	/*position: relative;->opcional: activar para absolute*/
+}
+
+img {
+  width: 50vh;
+  height: auto;
+}
